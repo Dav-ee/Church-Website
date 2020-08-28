@@ -1,0 +1,162 @@
+@media (min-width:601px) {
+body{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+    background: rgb(144, 196, 216);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+  
+.footer{
+  background:#6173af;
+  text-align:center;
+   font-size:16px;
+   line-height:1.4em;
+   clear:both;
+  position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+ color: aliceblue;
+}
+.footer a:hover{
+color: green;
+}
+.footer-text{
+  color: aliceblue;
+}
+/*end of my footer*/
+.bfr-img{
+  color: green;
+  font-size: 21px;
+  margin-left: 30%;
+  text-decoration: underline;
+}
+.my-images{
+padding: 5px;
+margin-left: 2.6%;
+margin-right: 3.3%;
+margin-bottom: 6px;
+border-radius: 10px;
+}
+.card{
+  margin-bottom: 20px;
+  display: inline-block;
+  margin: 1px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.30),rgba(0,0,0,0.22);
+  width: 243px;
+  transition-duration: 1s;
+}
+.card img{
+  border-radius: 2px;
+   height:170px;
+  max-width: 100%;
+  /* border: 1px solid rgb(233, 182, 14); */
+/*  height: auto;*/
+ /* margin: 0px;*/
+}
+.card p{
+  max-width:250px ;
+  margin-top:-2px;
+  border:1px solid inherit;
+  /* padding: 0px 6px 6px 8px; */
+  text-align: center;
+  background: lightgrey;
+  color: rgb(21, 19, 138);
+}
+
+}
+
+@media (max-width:600px) {
+
+body{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+    background: rgb(144, 196, 216);
+  overflow-y: scroll;
+  overflow-x: hidden;
+    /* background-color:    rgb(73, 130, 168); */
+}
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+  
+.footer{
+  background:#6173af;
+  text-align:center;
+   font-size:16px;
+   line-height:1.4em;
+   clear:both;
+  position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+ color: aliceblue;
+}
+.footer a:hover{
+color: green;
+}
+.footer-text{
+  color: aliceblue;
+}
+/*end of my footer*/
+.bfr-img{
+  color: green;
+  font-size: 17px;
+  margin:4px;
+  text-decoration: underline;
+}
+.my-images{
+padding: 5px;
+margin-left: 2.6%;
+margin-right: 3.3%;
+margin-bottom: 6px;
+}
+.card{
+  display: inline-block;
+  margin: 1px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.30),rgba(0,0,0,0.22);
+  width:100%;
+  transition-duration: 1s;
+  margin-bottom: -20px;
+}
+.card img{
+  border-radius: 2px;
+   width: 100%;
+}
+.card p{
+  margin-top:-2px;
+  padding-bottom:10px;
+  border:1px solid inherit;
+  text-align: center;
+  background: lightgrey;
+  color: rgb(21, 19, 138);
+}
+
+}

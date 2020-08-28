@@ -1,0 +1,335 @@
+@media (min-width:601px) {
+body{
+	font-size: 18px;
+	margin: 0px;
+background: rgb(19,89,121);
+	 font-style: normal;
+	 overflow-x: hidden;
+}
+.text-1{
+	margin-left: 18%;
+margin-right: 15%;
+line-height: 0.9em;
+margin-top:15px;
+color: rgb(211, 233, 255);
+}
+.text-1 p{
+border:1px solid rgb(202, 198, 198);
+}
+/*===============>Brings login form and sign up page to correct position i.e Centralize<=============*/
+#wrapper{
+	width: 60%;
+	right: 0px;
+	margin: 0px auto;	/*how about bringing it to center*/
+	width: 65%;
+	font-size: 17px;
+	position: relative;
+}
+#wrapper h5{
+	font-size: 16px;
+	padding-top: 5px;
+	color: rgb(51, 129, 207);
+}
+#wrapper p{
+	margin-top: -7px;
+	text-decoration: none;
+}
+#container_demo{
+	 margin: 0;
+	 padding: 0;
+}
+/*overall border line sorrounding my form*/
+#register{
+	line-height: 1.2em;
+	top: 1px;
+	width: 89%;
+	height:460px;
+	padding: 0px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247);
+        /*=====>Border Decorations<=======*/
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 10px;
+		 border-radius: 10px;
+}
+
+/*============> Decorating register BUTTON<=========== */
+#wrapper p.button input{
+	width:14%;
+	cursor: pointer;	
+	background: rgb(38, 25, 216);
+	padding: 7px 5px;
+	color: #fff;
+	font-size: 23px;	
+	border: 1px solid rgb(52, 12, 197);	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;	
+}
+/*==========>When i hover above my SIGN UP Button<========== */
+#wrapper p.button input:hover{
+	background: rgb(0, 7, 20);
+}
+
+/*==========>Correcting the location of my SIGN UP BUTTON<==========*/
+p.button{
+	text-align:right;
+	margin: -5px 0;
+}
+
+/*=============>STYLES THE INPUT BUTTONS EXCEPT  SIGN UP BT<============*/
+#wrapper input{
+	width: 92%;
+	margin-top: 1px;
+	padding: 8px 5px 8px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+/*=============>STYLES THE GENDER select BTN<============*/
+#wrapper select{
+	width: 92%;
+	margin-top: 1px;
+	padding: 8px 5px 8px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+	
+.footer{
+	background:#efe5e540;
+	text-align:center;
+   font-size:16px;
+   line-height:1.4em;
+   clear:both;
+  position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100%;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+ color: aliceblue;
+}
+.footer a:hover{
+	color: darkgreen;
+}
+.footer-text{
+	color: aliceblue;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*masimu*/
+@media (max-width:600px) {
+
+body{
+	font-size: 18px;
+	margin: 0px;
+	/*font-family:cursive;*/
+background: rgb(19,89,121);
+	 overflow-y: scroll;
+	 overflow-x: hidden;
+}
+.text-1 h2{
+line-height: 0.9em;
+margin-top:30px;
+color: rgb(211, 233, 255);
+}
+.text-1 p{
+border:1px solid rgb(202, 198, 198);
+}
+/*===============>Brings login form and sign up page to correct position i.e Centralize<=============*/
+#wrapper{
+	font-size: 19px;
+	color: aliceblue;
+	right: 0px;
+	margin: 0px auto;	/*how about bringing it to center*/
+	position: relative;
+	padding: 8px;
+}
+#wrapper h5{
+	font-size: 17px;
+	padding-top: 5px;
+	color: rgb(51, 129, 207);
+}
+#wrapper p{
+	margin-top: -7px;
+	text-decoration: none;
+}
+#container_demo{
+	 margin: 0;
+	 padding: 0;
+}
+/*overall border line sorrounding my form*/
+/*#register{
+	line-height: 1.2em;
+	top: 2px;
+	width: 89%;
+	height:400px;
+	padding: 0px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247);
+   
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 10px;
+		 border-radius: 10px;
+}
+*/
+/*============> Decorating register BUTTON<=========== */
+#wrapper p.button input{
+	width:20%;
+	cursor: pointer;	
+	background: rgb(38, 25, 216);
+	padding: 3px 5px;
+	color: #fff;
+	font-size: 20px;	
+	border: 1px solid rgb(52, 12, 197);	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+	        border-radius: 6px;	
+}
+/*==========>When i hover above my SIGN UP Button<========== */
+#wrapper p.button input:hover{
+	background: rgb(0, 7, 20);
+}
+
+/*==========>Correcting the location of my SIGN UP BUTTON<==========*/
+p.button{
+	text-align: right;
+	margin: -5px 0;
+}
+
+/*=============>STYLES THE INPUT BUTTONS EXCEPT  SIGN UP BT<============*/
+#wrapper input{
+	width: 90%;
+	margin-top: 2px;
+	font-size: 15px;
+	padding: 4px 5px 4px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+/*=============>STYLES THE GENDER select BTN<============*/
+#wrapper select{
+	width: 90%;
+	margin-top: 4px;
+font-size: 15px;
+	padding: 4px 5px 4px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+#wrapper label{
+	font-size: 16px;
+			 font-family: "Trebuchet MS","Myriad Pro";
+/*	color: rgb(83, 108, 136);*/
+color: aliceblue;
+	position: relative;
+}
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+	
+.footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+  position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+    color: aliceblue;
+}
+.footer a:hover{
+    color:yellow;
+}
+.footer-text{
+   color: aliceblue;
+}
+
+}

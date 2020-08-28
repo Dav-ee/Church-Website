@@ -1,0 +1,199 @@
+@media (min-width:601px) {
+body{
+font-family:cursive;
+	font-size: 18px;
+	background: rgb(19,89,121);
+	overflow-y: scroll;
+	margin: 0px;
+}
+
+/* Alligns the whole form to the center */
+#wrapper{
+	width: 60%;
+	right: 0px;
+	margin: 0px auto;	
+	width: 450px;
+	position: relative;	
+}
+
+/*=============>Decorates header "PWD"<===============*/
+#wrapper h1{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 32px;
+	line-height: 1.2em;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 10px 0;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 13px;
+}
+/* Does same work with "#wrapper h1" */
+#wrapper h1{
+    background: -webkit-repeating-linear-gradient(-45deg, 
+	rgb(221, 89, 13) , 
+	rgb(235, 23, 23) 20px, 
+	rgb(7, 155, 241) 20px, 
+	rgb(160, 154, 154) 40px, 
+	rgb(64, 111, 118) 40px);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+/* all the input except submit and checkbox */
+#wrapper input{
+	width: 92%;
+	margin-top: 4px;
+	padding: 10px 5px 10px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+/*=======>STYLE MY RESET BUTTON<========== */
+#wrapper p.button input{
+	width:39%;
+	cursor: pointer;	
+	background: rgb(61, 157, 179);
+	padding: 5px 5px;
+	color: #fff;
+	font-size: 20px;	
+	border: 1px solid rgb(1, 35, 78);	
+	margin-bottom: 10px;	
+		 font-family: "Trebuchet MS","Myriad Pro";
+}
+/* WHEN I PASS MY CURSOR ABOVE THE LOGIN BUTTON */
+#wrapper p.button input:hover{
+	background: rgb(1, 78, 78);
+}
+
+/*Correcting the location of my RESET button*/
+p.login.button{
+	text-align: right;
+	margin: 5px 0;
+}
+/* =========>Also border line sorrounding my FORM<=========*/
+#box{
+	top: 20px;
+	width:100%;	
+/*	padding: 18px 6% 20px 6%;
+	margin: 0 0 35px 0;*/
+	background: rgb(255, 255, 255);
+	padding: 10px 6% 0 6%;
+	margin: 10px 0 10px 0;
+              /*=====>Border Decorations--STRIP LIKE Background<=======*/
+	 -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+			-webkit-box-shadow: 3px;
+			-moz-border-radius: 3px;
+				 border-radius: 3px;
+} 
+
+}
+
+@media (max-width:600px) {
+
+
+
+body{
+	font-size: 16px;
+	background: rgb(19,89,121);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+
+}
+/* Alligns the whole form to the center */
+#wrapper{
+	max-width: 601px;
+	position: relative;	
+	margin: 0px auto;
+	color: rgb(19,89,121);
+	padding: 15px;
+}
+/*=============>Decorates header "PWD"<===============*/
+#wrapper h1{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 32px;
+	line-height: 1.2em;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 10px 0;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 13px;
+}
+/* Does same work with "#wrapper h1" */
+#wrapper h1{
+    background: -webkit-repeating-linear-gradient(-45deg, 
+	rgb(221, 89, 13) , 
+	rgb(235, 23, 23) 20px, 
+	rgb(7, 155, 241) 20px, 
+	rgb(160, 154, 154) 40px, 
+	rgb(64, 111, 118) 40px);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+/* all the input except submit and checkbox */
+#wrapper input{
+	width: 92%;
+	margin-top: 4px;
+	padding: 6px 5px 6px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+/*=======>STYLE MY RESET BUTTON<========== */
+#wrapper p.button input{
+	width: 24%;
+	cursor: pointer;	
+	background: rgb(61, 157, 179);
+	padding: 3px 4px;
+	color: #fff;
+	font-size: 20px;	
+	border: 1px solid rgb(1, 35, 78);	
+	margin-bottom: 10px;	
+		 font-family: "Trebuchet MS","Myriad Pro";
+}
+/* WHEN I PASS MY CURSOR ABOVE THE LOGIN BUTTON */
+#wrapper p.button input:hover{
+	background: rgb(1, 78, 78);
+}
+
+/*Correcting the location of my RESET button*/
+p.login.button{
+	text-align: right;
+	margin: 2px 0;
+}
+
+
+
+
+
+	}

@@ -1,0 +1,132 @@
+@media (min-width:601px) {
+body{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+.alert{
+  padding: 5px;
+  color: rgb(19,89,121);
+  font-size: 29px;
+  text-align: center;
+  margin-top:10%;
+}
+
+.say-hi{
+  display: none;
+}
+
+/*=============>STYLES THE GENDER select OPTION only<============*/
+#wrapper select{
+  width: 94%;
+  margin-top: 4px;
+  padding: 8px 5px 8px 32px;  
+  border: 1px solid rgb(178, 178, 178);
+  -webkit-box-sizing: content-box;
+    -moz-box-sizing : content-box;
+         box-sizing : content-box;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+     -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+          box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  -webkit-transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+       -o-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+}
+
+
+}
+
+
+@media (max-width:600px) {
+
+body{
+    font-weight: 400;
+  font-size: 18px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: rgb(19,89,121);
+  /* background-color:  rgb(73, 130, 168); */
+   margin: 0px;
+}
+.alert{
+  padding: 5px;
+  color: rgb(19,89,121);
+  font-size: 22px;
+  text-align: center;
+  margin-top:40%;
+}
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+
+.dont-say-hi{
+display: none;
+}
+}
+
+  .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+  position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
+/*=============>STYLES THE GENDER select OPTION only<============*/
+#wrapper select{
+  width: 90%;
+  margin-top: 1px;
+  font-size: 15px;
+  padding: 6px 5px 6px 32px;  
+  border: 1px solid rgb(178, 178, 178);
+  -webkit-box-sizing: content-box;
+    -moz-box-sizing : content-box;
+         box-sizing : content-box;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+     -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+          box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  -webkit-transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+       -o-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+}
+
+
+}

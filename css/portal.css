@@ -1,0 +1,169 @@
+@media (min-width:601px) {
+body{
+ font-size: 16px;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.head{
+background: rgb(36, 36, 82);
+line-height: 1.8;
+}
+.text{
+	 margin-left: 78px;
+ color: aliceblue;
+ font-size: 38px;
+}
+.look{
+	margin-top: -20px;
+	margin-left: 20%;
+	margin-right: 20% ;
+	color: aliceblue;
+	font-size: 19px;
+	line-height: 1.4em;
+    margin-left: 78px;
+}
+#small-border{
+		line-height: 1.3em;
+		background-color: rgb(127, 9, 211);
+		border:1px solid rgb(179, 176, 176);
+		border-right: 3px solid rgb(157, 169, 192);
+}
+#small-border p{
+	font-size: 17px;
+	padding-left: 21px;
+}
+#border{
+	background:rgb(237, 240, 240);
+	line-height: 0.7em;
+border:1px solid rgb(179, 176, 176);
+border-right: 3px solid rgb(26, 88, 204);
+padding-left: 20px;
+}
+#border p{
+	font-size: 16px;
+}
+#border h4 a{
+	color: rgb(32, 136, 228);
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.container2{
+padding: 5px 15% 30px 20%;
+margin-top: 20px;
+}
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+	
+}
+
+
+
+
+@media (max-width:600px) {
+
+body{
+	background: rgb(19,89,121);
+  font-size: 15px;
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.head{
+background: rgb(36, 36, 82);
+line-height: 1.9em;
+}
+.text{
+	padding-top: 16px;
+ color: aliceblue;
+ font-size: 33px;
+ text-align: left;
+}
+.look{
+	margin-top: -12px;
+	 	padding-bottom: 10px;
+	 	padding-right: 7px;
+	 	padding-left: 7px;
+	color: aliceblue;
+	font-size: 15px;
+	line-height: 1.3em;
+  }
+#small-border{
+	padding-top: 9px;
+		line-height: 1em;
+		background-color: rgb(127, 9, 211);
+		border:1px solid rgb(179, 176, 176);
+		border-right: 2px solid red;
+}
+#small-border p{
+	font-size: 16px;
+	padding-left: 20px;
+}
+#border{
+	background:rgb(237, 240, 240);
+	line-height: 1.3em;
+border:1px solid rgb(179, 176, 176);
+border-right: 2px solid red;
+padding-left: 10px;
+}
+#border p{
+	font-size: 15px;
+}
+#border h4 a{
+	color: rgb(32, 136, 228);
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.container2{
+padding: 6px;
+margin-top: 20px;
+}
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+	
+}
+
+  .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+  position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
+
+
+}

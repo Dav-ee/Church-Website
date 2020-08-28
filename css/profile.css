@@ -1,0 +1,188 @@
+@media (min-width:601px) {
+body{
+	font-weight: 400;
+	font-size: 18px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: rgb(19,89,121);
+	 margin: 0px;
+}
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+
+
+.just-name h5{
+  line-height: 1.7em;
+font-size: 30px;
+margin-left: 18%;
+margin-right: 9%;
+font-weight: 700;
+border-bottom:2px solid lightgreen;
+
+}
+.user-info{
+  float: left;
+ width: 25%; 
+padding: 10px;  
+margin-left: 8%;
+}
+.user-info p{
+  font-size: 16px;
+  color: darkgreen;
+  font-weight: 500;
+}
+.user-info-2 p{
+  font-size: 16px;
+  color: darkgreen;
+  font-weight: 500;
+}
+.txt{
+  list-style-type: none;
+  font-size: 23px;
+color: indigo;
+font-weight: 600;
+}
+.avatar{
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+   margin-top: 2%;
+float:left;
+margin-left: 6%;
+}
+.picha button{
+  padding: 4px 5px;
+  background: lightgreen;
+  border-radius: 2px;
+}
+ .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+position: absolute;
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
+.say-hi{
+  display: none;
+}
+
+}
+
+@media (max-width:600px) {
+
+body{
+	font-weight: 400;
+	font-size: 18px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: rgb(19,89,121);
+	 margin: 0px;
+}
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+	
+.just-name h5{
+  line-height: 1.5em;
+font-size: 22px;
+margin-left: 4%;
+font-weight: 600;
+border-bottom:2px solid lightgreen;
+
+}
+
+
+.user-info{
+  float: left;
+ width: 40%; 
+padding: -10px;  
+margin-left: 1%;
+}
+.user-info p{
+  font-size: 15px;
+  color: darkgreen;
+  font-weight: 500;
+}
+.user-info-2 p{
+  font-size: 16px;
+  color: darkgreen;
+  font-weight: 500;
+}
+.txt{
+  list-style-type: none;
+  font-size: 19px;
+  color:indigo;
+font-weight: 600;
+}
+.avatar{
+  vertical-align: middle;
+  width:150px;
+/*float: right;*/
+  height: 150px;
+  margin-right: 34%;
+  border-radius: 50%;
+   margin-bottom: 20px;
+}
+
+.picha button{
+  margin-bottom: 20px;
+  padding: 4px 5px;
+  background: lightgreen;
+  border-radius: 2px;
+}
+ .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
+
+.dont-say-hi{
+display: none;
+}
+
+}

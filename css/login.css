@@ -1,0 +1,329 @@
+@media (min-width:601px) {
+body{
+	/*font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;*/
+	font-size: 18px;
+	background: rgb(19,89,121);
+	margin:0px;
+		background: #fff url(../images/bg.jpg) repeat top left;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#container_demo{
+	 text-align: left;
+	 margin: 0;
+	 padding: 0;
+	 margin: 0 auto;
+	/* font-family: "Trebuchet MS","Myriad Pro";*/
+}
+
+/*===============>Brings login form to correct position i.e Centralize<=============*/
+#wrapper{
+	width: 60%;
+	right: 0px;
+	min-height: 500px;	
+	margin: 0px auto;	
+	width: 450px;
+	position: relative;	
+	margin-top: 10px;
+}
+/*=========>Styling our anchor elements i.e links<===============*/
+.to_register{
+	 font-family: "Trebuchet MS","Myriad Pro";
+	font-size: 19px;
+	color: rgb(3, 7, 241);
+	text-decoration: underline;
+}
+/*=============>Decorates header "LOGIN"<===============*/
+#wrapper h1{
+	font-size: 38px;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 10px 0;
+	font-weight: bold;
+	text-align: center;
+	/*padding-bottom: 30px;*/
+}
+/* Does same work with "#wrapper h1" */
+#wrapper h1{
+    background: -webkit-repeating-linear-gradient(-45deg, 
+	rgb(221, 89, 13) , 
+	rgb(235, 23, 23) 20px, 
+	rgb(7, 155, 241) 20px, 
+	rgb(160, 154, 154) 40px, 
+	rgb(64, 111, 118) 40px);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+#wrapper h1:after{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 3px;
+	margin-top: 5px;
+	background: -moz-linear-gradient(left, rgba(147,184,189,0) 0%, rgba(147,184,189,0.8) 20%, rgba(147,184,189,1) 53%, rgba(147,184,189,0.8) 79%, rgba(147,184,189,0) 100%); 
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(147,184,189,0)), color-stop(20%,rgba(147,184,189,0.8)), color-stop(53%,rgba(147,184,189,1)), color-stop(79%,rgba(147,184,189,0.8)), color-stop(100%,rgba(147,184,189,0))); 
+	background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+	background: -o-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+	background: -ms-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+	background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+#wrapper p{
+	margin-bottom:5px;
+}
+#wrapper p:first-child{
+	margin: 0px;
+}
+#wrapper label{
+	color: rgb(64, 92, 96);
+	position: relative;
+}
+
+/*=======>STYLE MY LOGIN BUTTON<========== */
+#wrapper p.button input{
+	 font-family: "Trebuchet MS","Myriad Pro";
+	width: 20%;
+	cursor: pointer;	
+	background: #27405c;
+	padding: 3px 3px;
+	color: #fff;
+	font-size: 22px;	
+	border: 1px solid rgb(1, 35, 78);	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+}
+/* WHEN I PASS MY CURSOR ABOVE THE LOGIN BUTTON */
+#wrapper p.button input:hover{
+	background: rgb(1, 78, 78);
+}
+
+
+/*Correcting the location of my Login button*/
+p.login.button{
+	text-align: right;
+	margin: 5px 0;
+}
+/* all the input except submit and checkbox */
+#wrapper input:not([type="checkbox"]){
+	width: 92%;
+	margin-top: 4px;
+	padding: 8px 5px 8px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+/* styling my checkbox "keep me logged in"*/
+.keeplogin{
+	margin-top: 0px;
+}
+.keeplogin input,
+.keeplogin label{
+	display: inline-block;
+	font-size: 14px;	
+	font-style: italic;
+}
+.keeplogin input #loginkeeping{
+	margin-right: 5px;
+}
+.keeplogin label{
+	width: 90%;
+}
+/* =========>Also border line sorrounding my FORM<=========*/
+ #login{
+	position: absolute;
+	top: 0px;
+	width: 95%;	
+	padding: 18px 6% 40px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247); 
+              /*=====>Border Decorations--STRIP LIKE Background<=======*/
+	 -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+			-webkit-box-shadow: 4px;
+			-moz-border-radius: 4px;
+				 border-radius: 4px;
+} 
+
+}
+
+@media (max-width:600px) {
+
+body{
+	/*font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;*/
+	font-size: 18px;
+	background: rgb(19,89,121);
+	margin:0px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+		background: #fff url(../images/bg.jpg) repeat top left;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#container_demo{
+	 text-align: left;
+	 margin: 0;
+	 margin: 0 auto;
+}
+section{
+	padding: 10px;
+}
+/*===============>Brings login form to correct position i.e Centralize<=============*/
+#wrapper{
+	max-width: 100%
+	right: 0px;
+	min-height: 500px;	
+	margin: 0px auto;	
+	position: relative;	
+}
+
+/*=============>Decorates header "LOGIN"<===============*/
+#wrapper h1{
+	font-family: "Trebuchet MS","Myriad Pro";
+	font-size: 34px;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 10px 0;
+	font-weight: bold;
+	text-align: center;
+	/*padding-bottom: 30px;*/
+}
+.uname{
+	font-size: 19px;
+	font-family: "Trebuchet MS","Myriad Pro";
+}
+#wrapper h1:after{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 3px;
+	 font-family: "Trebuchet MS","Myriad Pro";
+	margin-top: 5px;
+	background: -moz-linear-gradient(left, rgba(147,184,189,0) 0%, rgba(147,184,189,0.8) 20%, rgba(147,184,189,1) 53%, rgba(147,184,189,0.8) 79%, rgba(147,184,189,0) 100%); 
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(147,184,189,0)), color-stop(20%,rgba(147,184,189,0.8)), color-stop(53%,rgba(147,184,189,1)), color-stop(79%,rgba(147,184,189,0.8)), color-stop(100%,rgba(147,184,189,0))); 
+	background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+	background: -o-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+	background: -ms-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+	background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+#wrapper p{
+	margin-bottom:5px;
+}
+#wrapper p:first-child{
+	margin: 0px;
+}
+#wrapper label{
+	color: rgb(64, 92, 96);
+	position: relative;
+}
+
+/*=======>STYLE MY LOGIN BUTTON<========== */
+#wrapper p.button input{
+	width: 23%;
+	cursor: pointer;	
+	background: #27405c;
+		 font-family: "Trebuchet MS","Myriad Pro";
+	padding: 3px 3px;
+	color: #fff;
+	font-size: 21px;	
+	border: 1px solid rgb(1, 35, 78);	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+}
+/* WHEN I PASS MY CURSOR ABOVE THE LOGIN BUTTON */
+#wrapper p.button input:hover{
+	background: rgb(1, 78, 78);
+}
+
+
+/*Correcting the location of my Login button*/
+p.login.button{
+	text-align: right;
+	margin: 5px 0;
+}
+/* all the input except submit and checkbox */
+#wrapper input:not([type="checkbox"]){
+	width: 89%;
+	margin-top: 2px;
+	padding: 7px 5px 7px 32px;	
+	border: 1px solid rgb(178, 178, 178);
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+
+/* styling my checkbox "keep me logged in"*/
+.keeplogin{
+	margin-top: 0px;
+}
+.keeplogin input,
+.keeplogin label{
+	display: inline-block;
+	font-size: 14px;	
+	font-style: italic;
+}
+.keeplogin input #loginkeeping{
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.keeplogin label{
+	width: 90%;
+}
+/* =========>Also border line sorrounding my FORM<=========*/
+ #login{
+	position: absolute;
+	top: 0px;
+	width: 100%;	
+	padding: 16px 6% 50px 6%;
+	background: rgb(247, 247, 247); 
+              /*=====>Border Decorations--STRIP LIKE Background<=======*/
+	 -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+			-webkit-box-shadow: 4px;
+			-moz-border-radius: 4px;
+				 border-radius: 4px;
+} 
+/*=========>Styling our anchor elements i.e links<===============*/
+.to_register{
+	/* font-family: "Trebuchet MS","Myriad Pro";*/
+	font-size: 18px;
+	color: rgb(3, 7, 241);
+	text-decoration: underline;
+}
+
+
+
+	}

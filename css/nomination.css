@@ -1,0 +1,289 @@
+@media (min-width:601px) {
+body{
+	font-weight: 400;
+	font-size: 18px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	 margin: 0px;
+}
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+.say-hi{
+  display: none;
+}
+
+
+.my-images{ 
+padding: 5px;
+margin: auto;
+text-align: center;
+}
+
+.my-images h2{
+color: indigo;
+font-size: 25px;
+text-decoration: underline;
+font-weight: 550;
+}
+.image{
+  margin-bottom: 20px;
+  display: inline-block;
+  margin: 1px;
+  width: 215px;
+  transition-duration: 1s;
+}
+
+.image img{
+    border-radius: 5px;
+   height:180px;
+  max-width: 100%;
+}
+.submit-btn input{
+  margin-top:10px;
+width:14%;
+padding: 4px 4px;
+font-size: 22px;
+}
+
+/*try*/
+/* The container */
+.radio-ctn{
+  color:darkgreen;
+  font-weight: 500;
+  border: 1px solid;
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+/* Hide the browser's default radio button */
+.radio-ctn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 4.5px;
+  left: 0;
+  margin-left: 4px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-ctn:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-ctn input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-ctn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-ctn .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+/*end of try*/
+
+  .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
+}
+
+
+
+/*responsiveness*/
+@media (max-width:600px) {
+body{
+  font-weight: 400;
+  font-size: 18px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+   margin: 0px;
+}
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+.image{
+font-size: 18px;
+}
+.image img{
+  display: none;
+}
+.my-images h2{
+  color:black;
+  text-align: center;
+font-size: 21px;
+font-weight:590;
+}
+.vote1{
+  margin-bottom: 25px;
+  text-align: center;
+}
+.submit-btn input{
+  display: block;
+width:60%;
+margin:0 auto;
+padding: 2px 2px;
+font-size: 19px;
+font-weight: 650;
+}
+/* The container */
+.radio-ctn{
+  color:darkgreen;
+  font-weight: 400;
+  width: 94%;
+  border: 2px solid #444;
+  display: block;
+  position: relative;
+  /*padding-left: 20px;*/
+ text-align: center;
+  padding:13px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+/* Hide the browser's default radio button */
+.radio-ctn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 24%;
+  left:23px;
+  height: 30px;
+  width: 30px;
+background-color: #ddd;
+   color: #0B4DB7;
+  border-radius: 50%;
+}
+/* On mouse-over, add a grey background color */
+.radio-ctn:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-ctn input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-ctn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-ctn .checkmark:after {
+  top: 11px;
+  left: 11px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: white;
+}
+/*end of try*/
+  .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
+
+.dont-say-hi{
+display: none;
+}
+
+
+
+}
+

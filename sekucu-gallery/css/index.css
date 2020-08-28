@@ -1,0 +1,152 @@
+@media (min-width:601px) {
+body{
+height: 100%;
+    width: 100%;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+     font-family: Delius Swash Caps;
+/*  font-family:cursive;*/
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+#head{
+background-color:darkgrey;
+    text-align: left;
+    margin-top: 10px;
+    padding: 5px;
+    font-size:36px;
+padding-top: 20px;
+}
+.phot{
+  text-align: center;
+margin-top: 20px;
+padding: 5px;
+font-size: 36px;
+}
+ .my-links ol{
+    margin-top: -10px;
+    text-align: center;
+    list-style: none;
+}
+.my-links ol li{
+    line-height: 2.2em;
+}
+
+.my-links ol li a{
+    text-decoration: none;
+    color: firebrick;
+}
+
+ .my-links ol li a:hover{
+    color: blue;
+}
+
+.line p{
+        border: 1px solid green;
+        margin-left: 40px;
+    margin-right: 40px;
+    }
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+
+}
+
+
+@media (max-width:600px) {
+
+body{
+height: 100%;
+    width: 100%;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+#head{
+background-color:darkgrey;
+    text-align: left;
+    margin-top: 10px;
+    padding: 5px;
+    font-size:36px;
+padding-top: 20px;
+}
+.phot{
+  text-align: center;
+margin-top: 30px;
+padding-top: 15px;
+font-size: 36px;
+}
+.my-links ol{
+
+    padding-top: 15px;
+    text-align: center;
+    list-style: none;
+}
+.my-links ol li{
+    line-height: 2.2em;
+}
+
+.my-links ol li a{
+    text-decoration: none;
+    color: firebrick;
+}
+
+.line1 p{
+        border: 1px solid darkgreen;
+      margin-left: 40px;
+        margin-right: 40px;
+    }
+
+.line p{
+        border: 1px solid green;
+      margin-left: 0px;
+        margin-right: 0px;
+    }
+
+/* =======>footer section<===========*/
+#page-container {
+  position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.0rem;    /* Footer height */
+}
+  
+}
+
+
+  .footer{
+    background:#dad0d040;
+    text-align:center;
+   font-size:15px;
+   line-height:1.4em;
+   clear:both;
+  position: absolute;
+ padding: 4px;
+  bottom: 0px;
+  width: 100vw;
+  height: 3.0rem;            /* Footer height */
+}
+.footer a{
+    color: rgb(190, 150, 18);
+}
+.footer a:hover{
+    color: green;
+}
+.footer-text{
+    color: rgb(190, 150, 18);
+}
